@@ -90,3 +90,15 @@ main {
 .img2 {
   width: 100%;
 }
+
+.legenda {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+}
+
+.legenda > p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
