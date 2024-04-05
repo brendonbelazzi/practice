@@ -4,6 +4,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 header {
@@ -42,6 +43,9 @@ nav > a {
 }
 
 main {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 .texto {
@@ -72,15 +76,15 @@ main {
 .folha {
   display: flex;
   align-items: center;
+  overflow: hidden;
+  max-width: 100%;
   width: 100%;
   gap: 32px;
   padding-left: 32px;
 }
 
 .img1 {
-  width: 100%;
 }
 
 .img2 {
-  width: 100%;
 }
