@@ -82,7 +82,7 @@ main {
 .title {
   display: flex;
   align-items: baseline;
-  gap: 16px;
+  gap: 24px;
 }
 
 .title > h1 {
