@@ -22,6 +22,11 @@ h1 {
   font-weight: 500;
 }
 
+h1 > a {
+  text-decoration: none;
+  color: #426b1f;
+}
+
 nav {
   display: flex;
   gap: 36px;
