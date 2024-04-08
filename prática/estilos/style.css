@@ -55,6 +55,7 @@ nav > a:hover {
 .basket:hover {
   color: rgb(184, 184, 184);
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .basket:active {
@@ -86,6 +87,14 @@ main {
   justify-content: center;
   padding: 40px;
 }
+
+.botao > p:hover {
+  color: rgb(184, 184, 184);
+  background-color: #365719;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 .botao > p {
   background-color: #426b1f;
   padding: 14px 24px;

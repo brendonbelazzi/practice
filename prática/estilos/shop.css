@@ -54,6 +54,7 @@ nav > a:hover {
 .basket:hover {
   color: rgb(184, 184, 184);
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .basket:active {
